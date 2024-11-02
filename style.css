@@ -1,0 +1,52 @@
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+ }
+ 
+ .navbar {
+    height: 10vh;
+ }
+    .navbar-brand {
+       font-size: 1.8rem;
+    }
+    .nav-item {
+       font-size: 1.3rem;
+       margin-right: 1vw;
+    }
+ .dropdown-toggle:hover {
+    cursor: pointer;
+ }
+ .dropdown-toggle::after {
+    display: none;
+ }
+ 
+ .carousel-item { 
+    height: 90vh; 
+    overflow: hidden; 
+ }
+ 
+ .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+ }
+    .carousel-caption h5 {
+       font-size: 3.5rem;
+       text-shadow: 3px 3px 3px black;
+    }
+    .carousel-caption p {
+       font-size: 1.8rem;
+       text-shadow: 2px 2px 2px black;
+    }
+    .carousel-caption a {
+       font-size: 1.2rem;
+       color: rgb(187, 146, 146);
+       text-shadow: 1px 1px 1px black;
+    }
+    .carousel-caption a:hover {
+       color: rgb(67, 110, 210);
+    }
+ 

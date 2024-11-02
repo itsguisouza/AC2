@@ -1,0 +1,35 @@
+
+.navbar {
+    height: 10vh;
+ }
+    .navbar-brand {
+       font-size: 1.8rem;
+    }
+    .nav-item {
+       font-size: 1.3rem;
+       margin-right: 1vw;
+    }
+ 
+ .container {
+    margin: 20px auto 50px;
+ }
+    .title {
+       margin-bottom: 20px;
+    }
+    
+ h2 ~ .card-deck {
+    margin-bottom: 30px;
+ }
+ 
+ .card {
+    color: black;
+ }
+    .card:hover {
+       color: dimgray;
+       text-decoration: none;
+    }
+    .card img {
+       width: 100%;
+       height: 200px;
+    }
+ 
